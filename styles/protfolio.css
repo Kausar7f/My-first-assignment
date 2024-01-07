@@ -1,0 +1,40 @@
+/* common shared styles */
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url('../Images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    margin: 50px 140px;
+    border-radius: 16px;
+    background: linear-gradient;
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    
+    
+
+}
+.banner{
+    padding: 50px 140px;
+    
+
+}
+    
+
+.banner-greeting {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    /* padding: 150px; */
+    /* gap: 16px; */
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    /* padding: 0px  177px 344px; */
+
+}
