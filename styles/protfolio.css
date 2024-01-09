@@ -3,25 +3,55 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-title {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 35px;
+
+}
+
+.section-description {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+
+}
+
+.section-text {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+
 .header {
     background-image: url('../Images/Banner\ Image.png');
     background-repeat: no-repeat;
+    background-color: #070211;
     margin: 50px 140px;
     border-radius: 16px;
     background: linear-gradient;
     width: 1320px;
     height: 600px;
     background-position: center;
-    
-    
+    margin-bottom: 20px;
+
+
 
 }
-.banner{
+
+.banner {
     padding: 50px 140px;
-    
+
 
 }
-    
+
 
 .banner-greeting {
     color: #FFF;
@@ -29,12 +59,233 @@
     font-size: 32px;
     /* padding: 150px; */
     /* gap: 16px; */
+    margin-bottom: 0px;
 }
 
 .banner-title {
     color: #FFF;
     text-align: center;
     font-size: 72px;
-    /* padding: 0px  177px 344px; */
+    padding: 0px 160px;
+    margin-top: 16px;
 
+}
+
+/* main section styles */
+main {
+    max-width: 1550px;
+    margin: 0px auto;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.off {
+    padding: 130px;
+    background: #FFF;
+    margin-top: 130px 0px;
+
+
+}
+
+.New-pic {
+    width: 803px;
+    height: 500px;
+    /* margin-left: 370px; */
+    /* margin-right: 368px; */
+    margin: 0px auto;
+    display: block;
+
+
+
+
+}
+
+.new-year {
+    /* padding: 126px 552px 0px 126px; */
+    background-image: url('../Images/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    background-color: #070211;
+    margin: 50px 140px;
+    background-position: center;
+
+
+
+}
+
+.headline {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    padding: 126px 500px 0px 266px;
+    margin-bottom:
+        0px;
+
+
+}
+
+p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 500px 0px 266px;
+    margin-top: 24px;
+
+}
+
+.join {
+    color: #FFF;
+
+    font-size: 18px;
+    font-weight: 700;
+    border: 0px;
+    font-style: none;
+    padding: 48px 158px 0px 266px;
+
+}
+
+.place {
+    width: 1320px;
+    height: 482px;
+    background: rgba(255, 0, 0, 0.10);
+    margin: 130px;
+    /* margin-bottom: 0px; */
+}
+
+span {
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+
+
+}
+
+.description {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    padding: 100px 386px 0px 385px;
+
+}
+
+.btn {
+    text-align: center;
+    display: block;
+
+}
+
+button {
+    border-radius: 8px;
+    background: #F00;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.sale {
+    padding: 120px 140px 140px;
+
+}
+
+h6 {
+    color: #070211;
+    text-align: center;
+    font-size: 24px;
+
+    font-weight: 500;
+    /* padding: 120px 461px; */
+    margin-bottom: 0px;
+
+}
+
+.hd {
+    color: #F00;
+    text-align: center;
+
+    font-size: 72px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+h1>span {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 0px;
+
+}
+
+.pargraph {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1068px;
+    margin-top: 5px;
+    padding: 28px 266px;
+
+}
+
+.pr-head {
+    color: #F00;
+
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 140px;
+    margin-bottom: 5px;
+    /* padding: 22px 140px 16px 550px; */
+}
+
+.title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    /* padding: 22px 140px 16px 550px; */
+    margin-right: 140px;
+    margin-bottom: 5px;
+}
+
+.pr-ess {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    padding: 22px 0px 550px;
+    /* margin-right: 140px; */
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+
+}
+
+.pr-img{
+   margin: 0px;
+   
+    margin-top: 0px;
+}
+.images-1 {
+    display: flex;
+    width: 424px;
+    height: 450px;
+    gap: 30px;
+    margin-top: 0px;
+}
+.images-2{
+    display: flex;
+    width: 424px;
+    height: 450px;
+   gap: 30px;
 }
